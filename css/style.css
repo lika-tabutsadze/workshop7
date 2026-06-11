@@ -1,0 +1,46 @@
+/* STYLING THE HEADER */
+
+.header-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 112px;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 99;
+    background-color: #fff;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 6.5px;
+    width: 38px;
+    height: 47.5px;
+}
+
+.header-ul {
+    display: flex;
+    width: 577px;
+    height: 21px;
+    gap:50px;
+}
+
+.header-a {
+    color:#14171F;
+    font-size: 18px;
+    font-family: 'Work Sans';
+}
+
+.contact {
+    color: #F9995D;
+    font-weight: 600;
+}
+
