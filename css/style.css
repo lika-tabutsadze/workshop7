@@ -44,3 +44,84 @@
     font-weight: 600;
 }
 
+/* STYLING THE FIRST SECTION */
+
+.heading-bg {
+    background-image: url(../images/background1.jpg);
+    width: 100%;
+    height: 646px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.heading-text {
+    display: flex;
+    position: absolute;
+    left:112px;
+    top: 239px;
+    width: 556px;
+    height: 168px;
+}
+
+.h1 {
+    display: flex;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #292E3D;
+}
+
+.project-div {
+    width: 416px;
+    height: 190px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color:white;
+}
+
+.project-text {
+    background-color: #3559C7;
+    width: 416px;
+    height: 150px;
+    border-radius: 2px 2px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px 10px;
+    gap: 20px;
+    font-family: 'Work Sans';
+}
+
+.project-h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project-p {
+    font-size: 24px;
+}
+
+.project-btns {
+    display: flex;
+    gap:1px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208.00000000000045px;
+    height: 39.999984741211186px;
+    gap: 10px;
+    padding: 4px 20px;
+    background-color: #292E3D;
+    color: white;
+    font-family: 'Work Sans';
+    font-size: 18px;
+}
