@@ -405,3 +405,62 @@
     font-weight: 600;
 }
 
+
+/* STYLING THE CONSULT-US SECTION */
+
+.consult-bg {
+    background-image: url(../images/background3.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.consultCall {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.consult-h6 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+
+.consult-span {
+    font-family: 'Work Sans';
+    font-size: 24px;
+    color: white;
+
+}
+
+.phoneNum {
+    font-family: 'Work Sans';
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: white;
+}
+
+.consult-btn {
+    display: flex;
+    gap: 10px;
+    width: 232px;
+    height: 53px;
+    border-radius: 2px;
+    border: 2px solid #FFFFFF;
+    background: none;
+    padding: 16px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
