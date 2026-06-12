@@ -247,3 +247,67 @@
 }
 
 
+/* STYLING THE SERVICES SECTION */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 608px;
+    background-color: #F6F8F7;
+    justify-content: center;
+    align-items: center;
+    gap:36px
+}
+
+.services-title {
+    display: flex;
+    justify-content: center;
+}
+
+.services-h4 {
+    font-family: 'Work Sans';
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #292E3D;
+}
+
+.serviceCards {
+    display: flex;
+    width: 1009px;
+    height: 410px;
+    flex-wrap: wrap;
+    gap: 98px;
+}
+
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 271px;
+    height: 181px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    gap: 20px;
+    color: #2947A9;
+    box-shadow: 0px 0px 37px -2px #1118270D;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.blueService {
+    background-color: #2947A9;
+    color: #FFFFFF;
+}
+
+.horizontalLine {
+    width: 60px;
+    height: 2px;
+    background-color: #E0E3EB;
+}
